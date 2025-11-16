@@ -1,4 +1,4 @@
-package pe.edu.tecsup._04.collections.list.sort;
+package pe.edu.tecsup._04.collections.list._03_sort;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package pe.edu.tecsup._04.collections.list.sort;
+package pe.edu.tecsup._04.collections.list._04_sort_class;
 
 public class Student implements Comparable<Student> {
 	

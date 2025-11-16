@@ -1,4 +1,4 @@
-package pe.edu.tecsup._04.collections.list;
+package pe.edu.tecsup._04.collections.list._01_intro;
 
 import java.util.ArrayList;
 import java.util.List;
