@@ -1,6 +1,6 @@
 ## Ejercicio
 
-- Crear la clase BoletoDigitla con los atributos:
+- Crear la clase BoletoDigital con los atributos:
     - codigo QR
     - nombreEvento
     - Sector  (Tribuna Norte, Occidente, Oriente, VIP)
