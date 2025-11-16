@@ -9,7 +9,7 @@ public class TestMain3 {
 		
 		Persona persona2 = new Persona("45238754", "Miguel Chavez");
 		
-		List<Persona> personas = new ArrayList<Persona>();
+		List<Persona> personas = new ArrayList<>();
 	
 		// agrego 3 objetos a la lista personas
 		personas.add( new Persona("73456582", "Juan Velardes") );

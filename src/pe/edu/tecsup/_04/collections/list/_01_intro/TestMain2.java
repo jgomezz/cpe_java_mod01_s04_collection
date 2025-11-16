@@ -11,7 +11,7 @@ public class TestMain2 {
 		
 		//List nombres = new ArrayList(); // sin parametrizar el tipo de dato
 		
-		List<String> nombres = new ArrayList<String>(); // parametrizado
+		List<String> nombres = new ArrayList<>(); // parametrizado
 		
 		// Objetos Cadena que se agregan a la lista
 		nombres.add("Juan");    // posicion 0
