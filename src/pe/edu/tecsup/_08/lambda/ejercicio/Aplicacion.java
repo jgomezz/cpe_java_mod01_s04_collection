@@ -4,13 +4,14 @@ package pe.edu.tecsup._08.lambda.ejercicio;
 interface Operacion {
     int ejecutar(int a, int b);
 }
-
+/*
 class OperacionSuma implements Operacion {
     @Override
     public int ejecutar(int a, int b) {
         return a+ b ;
     }
 }
+*/
 class OperacionResta implements Operacion {
 
     @Override
@@ -42,7 +43,7 @@ public class Aplicacion {
 
         Operacion op;
 
-        op = new OperacionSuma();
+        op = (int a, int b) -> a + b ;//new OperacionSuma();
         System.out.println(op.ejecutar(4,2));
 
         op = new OperacionResta();
