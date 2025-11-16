@@ -22,8 +22,8 @@ public class StreamBasic {
         // ---------------------------------------------------------
         //  Obtener el menor valor
         // ---------------------------------------------------------
-        Optional<Integer> minValue = numbers.stream()
-                                            .min(Integer::compare);
+        Optional<Integer> minValue
+                = numbers.stream().min(Integer::compare);
 
         if(minValue.isPresent())
             System.out.println("Minimum: " + minValue.get());
@@ -33,8 +33,8 @@ public class StreamBasic {
         // ---------------------------------------------------------
         //  Obtener el mayor valor
         // ---------------------------------------------------------
-        Optional<Integer> maxValue = numbers.stream()
-                                            .max(Integer::compare);
+        Optional<Integer> maxValue
+                = numbers.stream().max(Integer::compare);
 
         if(maxValue.isPresent()) 
             System.out.println("Maximum: " + maxValue.get());

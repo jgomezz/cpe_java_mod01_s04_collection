@@ -13,6 +13,10 @@ public class ReferenceBasic {
 
         List<String> names = Arrays.asList("Ana", "Juan", "Pedro", "Maria");
 
+        for(String name : names) {
+            System.out.println(name);
+        }
+
         names.forEach(System.out::println); // Método de referencia
     }
 }
