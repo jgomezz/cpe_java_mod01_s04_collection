@@ -38,6 +38,28 @@ public class Aplicacion {
         System.out.println("Decimal recuperado " + decRep);
     
         // Boolean
-        
+
+
+        // Ejercicio
+
+        int edad = 30;
+
+        Integer edadWrapper = edad; // autoboxing
+
+        System.out.println("Edad Wrapper: " + edadWrapper);
+
+
+        Integer impuesto = 1500;
+
+        int impuestoPrimitivo = impuesto; // unboxing
+
+        System.out.println("impuesto : " + impuestoPrimitivo);
+
+
+
+
+
+
+
     }
 }
