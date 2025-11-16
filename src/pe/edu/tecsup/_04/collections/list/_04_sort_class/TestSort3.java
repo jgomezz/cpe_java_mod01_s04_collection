@@ -10,20 +10,21 @@ public class TestSort3 {
 		
 		List<Student> al = new ArrayList<Student>();
 		
-		al.add(new Student("Jose"));
-		al.add(new Student("Pedro"));
-		al.add(new Student("Maria"));
-		al.add(new Student("Alberto"));
-		al.add(new Student("Jaime"));
-		al.add(new Student("Samir"));
+		al.add(new Student("Jose",21));
+		al.add(new Student("Pedro", 23));
+		al.add(new Student("Maria",20));
+		al.add(new Student("Alberto",23));
+		al.add(new Student("Jaime",24));
+		al.add(new Student("Samir",26));
+        al.add(new Student("Jaime",21));
 
 		// Se debe implementar el metodo compareTo en la clase Student
 		
-		//Collections.sort(al);
-		Collections.sort(al,Collections.reverseOrder());
+		Collections.sort(al);
+		//Collections.sort(al,Collections.reverseOrder());
 		
 		for (Student s : al) 
-			System.out.println(s.name);
+			System.out.println(s.name + " " + s.age);
 		
 	}
 }

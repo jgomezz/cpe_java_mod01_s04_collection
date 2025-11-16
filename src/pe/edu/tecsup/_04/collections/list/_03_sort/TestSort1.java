@@ -16,8 +16,8 @@ class TestSort1 {
 		al.add("Samir");
 		al.add("Angel");
 
-		//Collections.sort(al); // Ordenados en forma alfabetica.
-        Collections.sort(al,Collections.reverseOrder());  
+		Collections.sort(al); // Ordenados en forma alfabetica.
+        //Collections.sort(al,Collections.reverseOrder());
 
 		for (String s : al) 
 			System.out.println(s);
