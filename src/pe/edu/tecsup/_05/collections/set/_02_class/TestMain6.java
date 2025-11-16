@@ -1,7 +1,8 @@
-package pe.edu.tecsup._05.collections.set;
+package pe.edu.tecsup._05.collections.set._02_class;
 
 import java.util.HashSet;
 import java.util.Set;
+
 
 public class TestMain6 {
 

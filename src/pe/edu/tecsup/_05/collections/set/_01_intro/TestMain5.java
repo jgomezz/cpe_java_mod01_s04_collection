@@ -1,4 +1,4 @@
-package pe.edu.tecsup._05.collections.set;
+package pe.edu.tecsup._05.collections.set._01_intro;
 
 import java.util.HashSet;
 import java.util.Set;

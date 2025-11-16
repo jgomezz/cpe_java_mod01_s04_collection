@@ -1,4 +1,4 @@
-package pe.edu.tecsup._05.collections.set;
+package pe.edu.tecsup._05.collections.set._02_class;
 
 public class Persona {
 
